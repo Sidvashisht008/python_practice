@@ -2,7 +2,7 @@
 
 n=int(input())
 A=[]
-B=[40,45,50,55,60,65,70,75,80,85,90,95,100]
+B=[i for i in range(40,101,5)]
 for i in range(n):
     a=int(input())
     A=A+[a]
