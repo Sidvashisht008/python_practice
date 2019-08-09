@@ -34,3 +34,15 @@ int main()
     cout<<digSum(n); 
     return 0; 
 } 
+ or
+    
+def digsum(n):
+    if n==0:
+        return 0
+    else:
+        if(n%9==0):
+            return 9
+        else:
+            return n%9
+a=int(input("Enter number"))
+print(digsum(a))
